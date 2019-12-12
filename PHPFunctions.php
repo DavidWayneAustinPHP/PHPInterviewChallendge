@@ -39,32 +39,4 @@
      
     // Clos conection to the database
     $sqlConnect->close();
-    
-    // Code used for testing while building the program to see data being entered
-    // Could also write code here that wrote data to the console that could be used for trouble shooting
-    echo '</br>', '</br>';
-    echo "<b>The below is being used for testing and will be removed when project completed</b>", '<br/>';
-    echo "Data that has been retrieved from the form", '<br/>';
-    pre_r($_POST);
-    if (isset($_POST['submit']))
-    {
-        echo "Testing data being read from form entry using for testing", '<br/>';
-        echo "First name: ",$_POST['first_name'].'<br/>';
-        echo "Last name: ",$_POST['surname'].'<br/>';
-    }
-    else 
-        {
-            echo "Something when wrong";
-        }
 ?>
-
-<?php
-// Using this function for testing to view formated data being written to the database
-function pre_r($array)
-{
-    echo '<pre>';
-    print_r($array);
-    echo '</pre>';
-}
-?>
-
