@@ -45,7 +45,7 @@ Task is to build a PHP, a form library from scratch.
                             </tr>
                             <tr>
                                 <td><p><label for="age">Age: </label></p></td>
-                                <td><p><input type="text" name="age" value="" required></p></td>
+                                <td><p><input type="number" name="age" value="" required></p></td>
                             </tr>
                         </table>
                     </div>
